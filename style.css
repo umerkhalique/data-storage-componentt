@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.mainnn{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c122c;
+
+}
+.img1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+
+}
+.main-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.card1{
+    width: 250px;
+    height: 140px;
+    background-color: #1e2c69;
+    border-radius: 6px;
+    border-top-right-radius: 80px
+}
+.card2{
+    width: 330px;
+    height: 110px;
+    background-color: #1e2c69;
+    margin-left: 25px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.img2{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 110px;
+    margin-top: 20px;
+}
+.icn{
+    width: 30px;
+    height: 30px;
+    background-color: #08112a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3{
+    width: 13px;
+}
+.img4{
+    width: 16px;
+}
+.img5{
+    width: 18px;
+}
+.inner{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 60px;
+}
+p{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+}
+.txt2{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.a{
+    margin-bottom: 10px;
+}
+.b{
+    border-radius: 10px;
+    width: 278px;
+    height: 16px;
+    background-color: #151e49;
+    display: flex;
+    align-items: center;
+}
+.ab{
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 3px;
+    height: 60%;
+    background-image: linear-gradient(to right, #ff9f97 , #fa4c90);
+    display: flex;
+    justify-content: flex-end;
+}
+.abc{
+    border-radius: 10px;
+    background-color: #f6faf6;
+    width: 7px;
+    height: 7px;
+    margin-right: 2px;
+    margin-top: 1.5px;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.gb{
+    font-weight: 700;
+}
